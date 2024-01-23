@@ -1,0 +1,1 @@
+from src.configs.mini_imagenet_config import *
