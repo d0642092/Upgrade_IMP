@@ -1,5 +1,8 @@
 # Upgrade_IMP
 
+* Original code author: 
+    k-r-allen
+    https://github.com/k-r-allen/imp
 * Original author: 
 Kelsey Allen, Evan Shelhamer, Hanul Shin, Josh Tenenbaum.
 * Paper name:
