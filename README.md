@@ -13,17 +13,17 @@ Infinite Mixture Prototypes for Few-Shot Learning.
 ## Execute
 ```python run_eval.py --data-root=./DATA/img/ --dataset="mini-imagenet" --label-ratio 0.4 --num-unlabel-test=5 --num-unlabel=5 --nclasses-train=5 --nclasses-episode=5 --nclasses-eval=5 --model "imp" --results "Result/mini-imagenet/1_5/" --nshot=1 --seed=0```
 ### env setting
-dataset="mini-imagenet"  #dataset name
-labelratio=0.4 #fraction of  labeled data
-numunlabel=5 #number of unlabeled examples
-nclassestrain=5 #number of classes to sample from 
-nclassesepisode=5 #n-way of episode
-accumulationsteps=1 #number of gradient accumulation steps before propagating loss (refer to paper)
-nclasseseval=5 #n-way of test episodes
-nshot=1 #shot of episodes
-model="imp" #model name
-seed=0 #seed
-results="Result"
+dataset="mini-imagenet"  #dataset name  
+labelratio=0.4 #fraction of  labeled data  
+numunlabel=5 #number of unlabeled examples  
+nclassestrain=5 #number of classes to sample from   
+nclassesepisode=5 #n-way of episode  
+accumulationsteps=1 #number of gradient accumulation steps before propagating loss (refer to paper)  
+nclasseseval=5 #n-way of test episodes  
+nshot=1 #shot of episodes  
+model="imp" #model name  
+seed=0 #seed  
+results="Result"  
 
 
 ## Folder(src):
